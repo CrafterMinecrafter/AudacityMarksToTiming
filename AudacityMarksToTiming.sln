@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26228.4
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AudacityMarksToTiming", "MyAssembly\AudacityMarksToTiming.csproj", "{5F65CC93-FF1A-49E7-B2DC-DEB03E12740B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AudacityMarksToTiming", "AudacityMarksToTiming\AudacityMarksToTiming.csproj", "{5F65CC93-FF1A-49E7-B2DC-DEB03E12740B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
