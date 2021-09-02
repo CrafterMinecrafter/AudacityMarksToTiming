@@ -4,17 +4,17 @@ using System.IO;
 
 public class Program
 {
-    public static void Main(string[] MyFile)
+    public static void Main(string[] MyFiles)
     {
-        if (MyFile == null)
+        if (MyFiles == null)
         {
             Console.WriteLine("pls put file with AudacityMarks in exe");
             Console.ReadLine();
             return;
         }
 
-        string directoryName = Path.GetDirectoryName(MyFile[0]);
-        string[] dataLines = File.ReadAllLines(MyFile[0]);
+        string directoryName = Path.GetDirectoryName(MyFiles[0]);
+        string[] dataLines = File.ReadAllLines(MyFiles[0]);
 
         List<AudacityMark> audacityMarksList = new List<AudacityMark>();
         foreach (string data in dataLines)
