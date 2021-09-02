@@ -1,2 +1,1 @@
-# AudacityMarksToTiming
-Tool for osu mapping
+# AudacityMarksToTiming its a Tool for osu mapping
