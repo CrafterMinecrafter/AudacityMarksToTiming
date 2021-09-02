@@ -9,6 +9,7 @@ public class Program
         if (MyFile == null)
         {
             Console.WriteLine("pls put file with AudacityMarks in exe");
+            Console.ReadLine();
             return;
         }
 
